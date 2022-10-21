@@ -9,12 +9,12 @@ public class Login {
 	}
 	
 	
-	@Given("^ User enters username in username field$")
+	@Given("^User enters username in username field$")
 	public void User_username() {
 		System.out.println("User has entered username");
 	}
 	
-	@Given("^  User enters pass in password field$")
+	@Given("^User enters pass in password field$")
 	public void User_password() {
 		System.out.println("User has entered password");
 	}
