@@ -19,6 +19,9 @@ public class Login {
 		System.out.println("User has entered password");
 	}
 	
-	
+	@Given("^User enters id in idd field$")
+	public void User_id() {
+		System.out.println("User has  id");
+	}
 
 }
